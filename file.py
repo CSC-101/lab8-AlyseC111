@@ -22,5 +22,6 @@ if __name__ == '__main__':
                         print("Error - line cannot be processed")
     except IOError as e:
         print("Cannot open file: ", e)
+        exit()
 
 
